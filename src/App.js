@@ -6,7 +6,6 @@ import Login from "./Login_components/Login";
 import ForgetPassword from "./Login_components/ForgotPassword";
 import ChangePassword from "./Login_components/ChangePassword";
 import Success from "./Login_components/Success";
-import Verification from "./Login_components/Verification";
 import "bootstrap/dist/css/bootstrap.css";
 
 function App() {
@@ -17,7 +16,7 @@ function App() {
           <Route path="/" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/forgotPassword" element={<ForgetPassword />} />
-          <Route path="/verification" element={<Verification />} />
+         
           <Route path="/changepassword/:email" element={<ChangePassword />} />
           <Route path="/success" element={<Success />} />
         </Routes>
