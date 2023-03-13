@@ -18,17 +18,17 @@ function Register() {
   const { values, touched, errors, handleChange, handleBlur, handleSubmit } =
     useFormik({
       initialValues: {
-        username: "",
+        firstname: "",
+        lastname: "",
         email: "",
-
-        password1: "",
-        password2: "",
+        password: "",
       },
+
       validationSchema: yup.object({
-        username: yup.string().required().min(3),
+        firstname: yup.string().required().min(3),
+        lastname: yup.string().required().min(1),
         email: yup.string().email().required(),
-        password1: yup.string().required().min(8),
-        password2: yup.string().required().min(8),
+        password: yup.string().required().min(8),
       }),
       onSubmit: async (values) => {
         try {
