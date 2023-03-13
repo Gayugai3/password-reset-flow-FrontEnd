@@ -10,7 +10,7 @@ function Success() {
         <div class="col-lg-12 ">
           <br />
           <br /> <h2 style={{ color: "#0fad00" }}>Success</h2>
-          <img src="http://osmhotels.com//assets/check-true.jpg" />
+          <img src="https://www.vippng.com/png/full/144-1445023_comment-success-login.png" />
           <h3>{`Dear ${username}`}</h3>
           <p style={{ fontSize: "20px", color: "#5C5C5C" }}>
             Thank you for using our website
